@@ -1,0 +1,25 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer__bottom">
+      <p class="footer__copyright">
+        &copy; <span id="footer-year"></span> {{ site.title }}
+      </p>
+
+      {% if site.social_links %}
+      <ul class="footer__social" role="list">
+        {% for social in site.social_links %}
+        <li>
+          <a href="{{ social.url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ social.label }}">
+            {% include icons/{{ social.icon }}.html %}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('footer-year').textContent = new Date().getFullYear();
+</script>
