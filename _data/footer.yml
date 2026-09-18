@@ -12,10 +12,10 @@
 copyright: "© 2026 Changhyun Oh. All rights reserved."
 
 columns:
-  - heading: "Work"
+  - heading: "Projects"
     links:
       - label: "Selected Projects"
-        url: "/work/"
+        url: "/projects/"
       - label: "Open Source"
         url: "https://github.com/chango604"
 
