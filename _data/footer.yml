@@ -9,37 +9,24 @@
 # Each column has a heading and a list of links.
 # Remove a column by deleting its block.
 
-copyright: "© 2025 Your Name. All rights reserved."
+copyright: "© 2026 Changhyun Oh. All rights reserved."
 
 columns:
   - heading: "Work"
     links:
       - label: "Selected Projects"
         url: "/work/"
-      - label: "Case Studies"
-        url: "/work/"
       - label: "Open Source"
-        url: "https://github.com/yourusername"
-
-  - heading: "Writing"
-    links:
-      - label: "Writing"
-        url: "/writing/"
-      - label: "Substack"
-        url: "https://yourusername.substack.com"
-      - label: "RSS Feed"
-        url: "/feed.xml"
+        url: "https://github.com/chango604"
 
   - heading: "Connect"
     links:
       - label: "Email"
-        url: "mailto:hello@yoursite.com"
+        url: "mailto:chango@andrew.cmu.edu"
       - label: "GitHub"
-        url: "https://github.com/yourusername"
+        url: "https://github.com/chango604"
       - label: "LinkedIn"
         url: "https://linkedin.com/in/yourusername"
-      - label: "Twitter / X"
-        url: "https://x.com/yourusername"
 
 # ─────────────────────────────────────────────
 # NEWSLETTER / EMAIL SIGNUP (optional)
@@ -54,7 +41,7 @@ columns:
 # If you only want a CTA button (no email field), set field_label: "" and field_placeholder: ""
 
 newsletter:
-  enabled: true
+  enabled: false
   heading: "Stay in touch"
   description: "Occasional notes on design, development, and what I'm building."
   field_label: "Your email"
