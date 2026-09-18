@@ -21,7 +21,7 @@
   description: "A soft inductive tactile sensor using 5 planar PCB coils and magnetorheological elastomer, with machine learning for continuous 2D contact localization."
   cover: "/assets/images/tactile-sensor.jpg"
   icon: ""
-  url: "/work/tactile-sensor/"
+  url: "/projects/tactile-sensor/"
   layout: "mixed"
   year: "2026"
 
@@ -30,7 +30,7 @@
   description: "Bio-inspired adhesives with switchable attachment for challenging underwater surfaces, presented at the Adhesion Society Annual Meeting 2025."
   cover: "/assets/images/adhesives.jpg"
   icon: ""
-  url: "/work/switchable-adhesives/"
+  url: "/projects/switchable-adhesives/"
   layout: "mixed"
   year: "2025"
 
@@ -39,7 +39,7 @@
   description: "An automated peel-testing machine built with a custom electrical/motor-control system for consistent adhesive characterization."
   cover: ""
   icon: "gauge"
-  url: "/work/peel-test-machine/"
+  url: "/projects/peel-test-machine/"
   layout: "text"
   year: "2025"
 
@@ -48,6 +48,6 @@
   description: "A mobile app delivering personalized football statistics, with custom metrics designed to evaluate player and team performance."
   cover: ""
   icon: "smartphone"
-  url: "/work/1touch/"
+  url: "/projects/1touch/"
   layout: "text"
   year: "2024"
