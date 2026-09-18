@@ -36,8 +36,8 @@ favicon: ""
 # NAVIGATION
 # ─────────────────────────────────────────────
 nav_links:
-  - label: "Work"
-    url: "/work/"
+  - label: "Projects"
+    url: "/projects/"
   - label: "Writing"
     url: "/writing/"
   - label: "About"
