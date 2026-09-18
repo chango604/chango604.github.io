@@ -2,10 +2,10 @@
 # SITE IDENTITY
 # ─────────────────────────────────────────────
 title: "Changhyun Oh"
-tagline: "Designer & Developer"
-description: "I build thoughtful digital products that live at the intersection of design and engineering."
-email: "hello@yoursite.com"
-url: "https://yourusername.github.io"
+tagline: "Mechanical Engineer & Researcher"
+description: "I make soft sensors, combining hardware fabrication, robotics-driven experimentation, and machine learning."
+email: "chango@andrew.cmu.edu"
+url: "https://chango604.github.io"
 baseurl: ""
 
 # ─────────────────────────────────────────────
@@ -52,7 +52,7 @@ contact_url: "mailto:chango@andrew.cmu.edu"
 # HOME PAGE
 # ─────────────────────────────────────────────
 hero_greeting: "Hi there!"
-hero_intro: "I'm a designer & developer crafting thoughtful digital experiences. Currently open to new opportunities."
+hero_intro: "I'm a mechanical engineering researcher at Carnegie Mellon University's Soft Machines Lab, developing soft inductive tactile sensors that combine planar coil arrays, magnetorheological elastomer, robotics-driven experimentation, and machine learning. Currently open to robotics and sensing hardware R&D opportunities."
 hero_cta_label: "View my Resume"
 hero_cta_url: "/assets/resume.pdf"
 
@@ -60,17 +60,17 @@ hero_cta_url: "/assets/resume.pdf"
 # ABOUT PAGE
 # ─────────────────────────────────────────────
 about_bio: |
-  I'm a designer and developer based in [City]. I've spent the last 5 years building products for startups and established brands — from brand identity systems to full-stack web applications.
+  I'm a mechanical engineering graduate researcher at Carnegie Mellon's Soft Machines Lab (advised by Prof. Carmel Majidi), where I design and characterize soft inductive tactile sensors that combine planar coil arrays with magnetorheological elastomer (MRE). My work spans hardware design, robotics-driven experimentation, and machine learning — I build the sensors, automate the data collection with a robotic arm and load-cell instrumentation, and train the models that turn raw signals into predictions of contact location and force.
 
-  I care deeply about the craft: clean code, considered typography, and interfaces that feel inevitable. When I'm not at the computer, I'm usually hiking, reading, or making espresso I can't stop thinking about.
+  Before CMU, I worked in the Soft Materials and Structures Lab at Virginia Tech (advised by Prof. Michael D. Bartlett), where I fabricated and tested bio-inspired switchable adhesives and led the electrical design for a capstone testing machine. Across these projects, my consistent focus has been building complete systems — from physical fabrication through data analysis — that solve real sensing and material-characterization problems.
 
+  I'm looking for opportunities in robotics, sensing hardware, or R&D engineering roles where I can keep building end-to-end systems: designing hardware, writing the code that drives it, and validating performance with real data. Outside the lab, I enjoy 3D printing, CAD modeling, and building creative sensor-driven interfaces.
 skills:
-  - UI/UX Design
-  - Brand Identity
-  - Front-End Development
-  - Motion Design
-  - Design Systems
-  - Typography
+  - Inductive & Tactile Sensing
+  - Machine Learning for Sensor Data
+  - Robotics & Experimental Automation
+  - Materials Fabrication & Characterization
+  - Python, MATLAB, Arduino
 
 # Social links — shown as icons in the footer.
 # Add, remove, or reorder entries freely.
@@ -78,23 +78,23 @@ skills:
 # To add a new one, just add an entry with the matching icon name and your URL.
 social_links:
   - label: "GitHub"
-    url: "https://github.com/yourusername"
+    url: "https://github.com/chango604"
     icon: "github"
-  - label: "Twitter / X"
-    url: "https://x.com/yourusername"
-    icon: "x"
+  # - label: "Twitter / X"
+  #   url: "https://x.com/yourusername"
+  #   icon: "x"
   - label: "LinkedIn"
-    url: "https://linkedin.com/in/yourusername"
+    url: "www.linkedin.com/in/changhyunoh"
     icon: "linkedin"
-  - label: "Dribbble"
-    url: "https://dribbble.com/yourusername"
-    icon: "dribbble"
+  # - label: "Dribbble"
+  #   url: "https://dribbble.com/yourusername"
+  #   icon: "dribbble"
   # - label: "CodePen"
   #   url: "https://codepen.io/yourusername"
   #   icon: "codepen"
-  # - label: "Instagram"
-  #   url: "https://instagram.com/yourusername"
-  #   icon: "instagram"
+  - label: "Instagram"
+    url: "https://instagram.com/rossalk11"
+    icon: "instagram"
   # - label: "Behance"
   #   url: "https://behance.net/yourusername"
   #   icon: "behance"
