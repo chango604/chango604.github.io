@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" font-family="Inter, Arial, sans-serif"><rect width="1600" height="900" fill="#f3f6fb"/>
+<text x="80" y="110" font-size="44" font-weight="700" fill="#111827">Hands-on engineering outreach</text>
+<rect x="300" y="560" width="1000" height="40" rx="10" fill="#a16207"/>
+<rect x="700" y="470" width="200" height="90" rx="10" fill="#0052FF"/><path d="M720 470 L800 400 L880 470" stroke="#0052FF" stroke-width="10" fill="none"/>
+<text x="800" y="525" font-size="24" text-anchor="middle" fill="#fff">Prototype</text>
+<g fill="#6b7280"><circle cx="420" cy="380" r="45"/><path d="M350 560 Q350 450 420 440 Q490 450 490 560 Z"/></g>
+<g fill="#9ca3af"><circle cx="600" cy="360" r="42"/><path d="M535 560 Q535 440 600 430 Q665 440 665 560 Z"/></g>
+<g fill="#9ca3af"><circle cx="1000" cy="360" r="42"/><path d="M935 560 Q935 440 1000 430 Q1065 440 1065 560 Z"/></g>
+<g fill="#0052FF"><circle cx="1180" cy="330" r="48"/><path d="M1105 560 Q1105 425 1180 415 Q1255 425 1255 560 Z"/></g>
+<text x="1180" y="250" font-size="26" text-anchor="middle" fill="#0052FF">Activity lead</text>
+<g font-size="26" fill="#374151"><text x="300" y="680">Black Engineering Excellence · 2024</text><text x="900" y="680">Pathways for Future Engineers · 2025</text></g>
+<text x="80" y="840" font-size="26" fill="#6b7280">Illustration</text></svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" font-family="Inter, Arial, sans-serif"><rect width="1600" height="900" fill="#f3f6fb"/>
+<text x="80" y="110" font-size="44" font-weight="700" fill="#111827">Continuous 90° peel test</text>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0052FF"/></marker></defs>
+<!-- frame -->
+<rect x="340" y="160" width="20" height="560" fill="#9ca3af"/><rect x="340" y="160" width="700" height="20" fill="#9ca3af"/>
+<!-- motor 1 -->
+<rect x="620" y="180" width="110" height="80" rx="8" fill="#374151"/><text x="675" y="228" font-size="24" text-anchor="middle" fill="#fff">Motor 1</text>
+<rect x="640" y="290" width="70" height="60" rx="6" fill="#fff" stroke="#111827" stroke-width="3"/><text x="760" y="330" font-size="26" fill="#374151">Force sensor</text>
+<path d="M675 260 V290" stroke="#111827" stroke-width="4"/>
+<!-- tape -->
+<path d="M675 350 V600" stroke="#f59e0b" stroke-width="10"/>
+<path d="M675 600 H1060" stroke="#f59e0b" stroke-width="10"/>
+<text x="700" y="480" font-size="26" fill="#92400e">Tape</text>
+<!-- substrate on stage -->
+<rect x="420" y="610" width="680" height="30" fill="#93c5fd"/>
+<rect x="400" y="640" width="720" height="40" rx="6" fill="#4b5563"/><text x="760" y="668" font-size="22" text-anchor="middle" fill="#fff">Moving stage (Motor 2)</text>
+<!-- angle -->
+<path d="M675 560 H715 V600" stroke="#dc2626" stroke-width="3" fill="none"/><text x="725" y="575" font-size="28" fill="#dc2626">90°</text>
+<!-- arrows -->
+<path d="M560 520 V400" stroke="#0052FF" stroke-width="5" marker-end="url(#a)"/><text x="470" y="470" font-size="24" fill="#0052FF">pull v</text>
+<path d="M1150 660 H1000" stroke="#0052FF" stroke-width="5" marker-end="url(#a)" transform="translate(-30 80)"/><text x="1000" y="770" font-size="24" fill="#0052FF">stage v (matched)</text>
+<!-- controller -->
+<rect x="1220" y="230" width="260" height="140" rx="12" fill="#0052FF"/><text x="1350" y="290" font-size="26" text-anchor="middle" fill="#fff">Power &amp;</text><text x="1350" y="325" font-size="26" text-anchor="middle" fill="#fff">speed control</text>
+<path d="M1220 260 H730" fill="none" stroke="#0052FF" stroke-width="3" stroke-dasharray="10 8"/><path d="M1350 370 V660 H1120" stroke="#0052FF" stroke-width="3" stroke-dasharray="10 8" fill="none"/>
+<text x="1350" y="410" font-size="22" text-anchor="middle" fill="#0052FF">my contribution</text>
+<text x="80" y="840" font-size="26" fill="#6b7280">Schematic — not to scale</text></svg>

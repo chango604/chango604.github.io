@@ -1,6 +1,6 @@
 <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
   <button class="lightbox__close" id="lightboxClose" aria-label="Close image viewer">&#x2715;</button>
-  <img class="lightbox__img" id="lightboxImg" src="" alt="">
+  <img class="lightbox__img" id="lightboxImg" alt="">
 </div>
 
 <script>
@@ -18,7 +18,7 @@
   function close() {
     lb.classList.remove('is-open');
     document.body.style.overflow = '';
-    setTimeout(function() { lbImg.src = ''; }, 200);
+    setTimeout(function() { lbImg.removeAttribute("src"); }, 200);
   }
 
   // Wire up every project image except the full-bleed hero

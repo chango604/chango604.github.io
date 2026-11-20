@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" font-family="Inter, Arial, sans-serif"><rect width="1600" height="900" fill="#f3f6fb"/>
+<text x="80" y="110" font-size="44" font-weight="700" fill="#111827">1touch: personalized soccer stats</text>
+<rect x="600" y="150" width="400" height="700" rx="48" fill="#111827"/>
+<rect x="622" y="190" width="356" height="620" rx="24" fill="#fff"/>
+<text x="650" y="240" font-size="26" font-weight="700" fill="#111827">My teams &amp; players</text>
+<rect x="650" y="265" width="300" height="110" rx="14" fill="#e0e7ff"/><circle cx="700" cy="320" r="30" fill="#0052FF"/><rect x="745" y="295" width="160" height="16" rx="8" fill="#6366f1"/><rect x="745" y="325" width="110" height="14" rx="7" fill="#a5b4fc"/>
+<rect x="650" y="390" width="300" height="110" rx="14" fill="#e0e7ff"/><circle cx="700" cy="445" r="30" fill="#0052FF"/><rect x="745" y="420" width="140" height="16" rx="8" fill="#6366f1"/><rect x="745" y="450" width="120" height="14" rx="7" fill="#a5b4fc"/>
+<text x="650" y="550" font-size="22" font-weight="700" fill="#111827">New performance metric</text>
+<g fill="#0052FF"><rect x="660" y="680" width="40" height="80"/><rect x="720" y="630" width="40" height="130"/><rect x="780" y="600" width="40" height="160"/><rect x="840" y="650" width="40" height="110"/><rect x="900" y="580" width="40" height="180"/></g>
+<text x="300" y="400" font-size="28" text-anchor="middle" fill="#374151">Scope &amp; features</text><text x="300" y="440" font-size="22" text-anchor="middle" fill="#6b7280">what ships first</text>
+<text x="1300" y="400" font-size="28" text-anchor="middle" fill="#374151">Custom metrics</text><text x="1300" y="440" font-size="22" text-anchor="middle" fill="#6b7280">player &amp; team value</text>
+<path d="M420 410 H590 M1180 410 H1010" stroke="#0052FF" stroke-width="3" stroke-dasharray="10 8"/>
+<text x="80" y="840" font-size="26" fill="#6b7280">Concept wireframe</text></svg>

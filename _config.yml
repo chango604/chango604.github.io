@@ -2,8 +2,8 @@
 # SITE IDENTITY
 # ─────────────────────────────────────────────
 title: "Changhyun Oh"
-tagline: "Mechanical Engineer & Researcher"
-description: "I make soft sensors, combining hardware fabrication, robotics-driven experimentation, and machine learning."
+tagline: "Mechanical Engineer — Soft Sensors, Robotics & Machine Learning"
+description: "M.S. mechanical engineering researcher at Carnegie Mellon who designs soft tactile sensors, automates their testing with robots, and uses machine learning to interpret their signals."
 email: "chango@andrew.cmu.edu"
 url: "https://chango604.github.io"
 baseurl: ""
@@ -26,7 +26,7 @@ font_pairing: "modern"
 # Logo / avatar (optional)
 # Path relative to the site root. Leave blank to show your name as text.
 logo: ""
-avatar: "/assets/images/avatar.png"
+avatar: ""   # TODO: add a professional headshot, e.g. /assets/images/headshot.jpg
 
 # Favicon (optional) — path to an .ico/.png/.svg file.
 # Leave blank to auto-generate one from your accent color and the first letter of your title.
@@ -43,7 +43,7 @@ nav_links:
   - label: "About"
     url: "/about/"
   - label: "Resume"
-    url: "/assets/resume.pdf"
+    url: "/resume/"
 
 contact_label: "Contact"
 contact_url: "mailto:chango@andrew.cmu.edu"
@@ -51,26 +51,32 @@ contact_url: "mailto:chango@andrew.cmu.edu"
 # ─────────────────────────────────────────────
 # HOME PAGE
 # ─────────────────────────────────────────────
-hero_greeting: "Hi there!"
-hero_intro: "I'm a mechanical engineering researcher at Carnegie Mellon University's Soft Machines Lab, developing soft inductive tactile sensors that combine planar coil arrays, magnetorheological elastomer, robotics-driven experimentation, and machine learning. Currently open to robotics and sensing hardware R&D opportunities."
-hero_cta_label: "View my Resume"
-hero_cta_url: "/assets/resume.pdf"
+hero_greeting: "Changhyun Oh"
+hero_role: "Mechanical engineer building soft sensors that give robots a sense of touch"
+hero_intro: "I am an M.S. researcher in Carnegie Mellon's Soft Machines Lab. I design inductive tactile sensors, automate their testing with a robotic arm and load frame, and train machine-learning models that turn raw signals into contact location. I am seeking robotics and sensing-hardware R&D roles."
+hero_cta_label: "View my resume"
+hero_cta_url: "/resume/"
+hero_secondary_label: "See projects"
+hero_secondary_url: "/projects/"
 
 # ─────────────────────────────────────────────
 # ABOUT PAGE
 # ─────────────────────────────────────────────
 about_bio: |
-  I'm a mechanical engineering graduate researcher at Carnegie Mellon's Soft Machines Lab (advised by Prof. Carmel Majidi), where I design and characterize soft inductive tactile sensors that combine planar coil arrays with magnetorheological elastomer (MRE). My work spans hardware design, robotics-driven experimentation, and machine learning — I build the sensors, automate the data collection with a robotic arm and load-cell instrumentation, and train the models that turn raw signals into predictions of contact location and force.
+  I am an M.S. student in mechanical engineering at Carnegie Mellon University, where I research soft tactile sensors in the Soft Machines Lab (advisor: Prof. Carmel Majidi). My sensors pair an array of planar PCB coils with a magnetorheological elastomer (MRE). When the elastomer is pressed, the coils' inductance changes; I collect that data with a robotic arm and an INSTRON load frame, then train machine-learning models that locate the contact point.
 
-  Before CMU, I worked in the Soft Materials and Structures Lab at Virginia Tech (advised by Prof. Michael D. Bartlett), where I fabricated and tested bio-inspired switchable adhesives and led the electrical design for a capstone testing machine. Across these projects, my consistent focus has been building complete systems — from physical fabrication through data analysis — that solve real sensing and material-characterization problems.
+  Before CMU, I earned a B.S. in mechanical engineering (Robotics and Mechatronics) from Virginia Tech. There I worked in the Soft Materials and Structures Lab (advisor: Prof. Michael D. Bartlett) on octopus-inspired switchable adhesives and 3D-printed flexible materials, and I designed the electrical system for my capstone team's 90° peel-test machine.
 
-  I'm looking for opportunities in robotics, sensing hardware, or R&D engineering roles where I can keep building end-to-end systems: designing hardware, writing the code that drives it, and validating performance with real data. Outside the lab, I enjoy 3D printing, CAD modeling, and building creative sensor-driven interfaces.
+  Across these projects, I build complete systems: I design the hardware, write the code that drives the experiments, and validate performance with measured data. I want to bring that end-to-end approach to an R&D team building robots, haptic devices, or medical devices that must sense and respond to touch.
 skills:
-  - Inductive & Tactile Sensing
-  - Machine Learning for Sensor Data
-  - Robotics & Experimental Automation
-  - Materials Fabrication & Characterization
-  - Python, MATLAB, Arduino
+  - group: "Sensing & Robotics"
+    items: ["Inductive tactile sensors", "Robotic-arm test automation", "INSTRON mechanical testing"]
+  - group: "Machine Learning & Software"
+    items: ["Python", "MATLAB", "Machine learning for sensor data"]
+  - group: "Electronics & Embedded"
+    items: ["Arduino", "STM32", "KiCad", "LTspice", "Motor control"]
+  - group: "Design & Fabrication"
+    items: ["SolidWorks", "3D printing (FDM, DLP, SLA)", "Mold casting", "Direct Ink Writing", "Laser processing"]
 
 # Social links — shown as icons in the footer.
 # Add, remove, or reorder entries freely.
@@ -84,7 +90,7 @@ social_links:
   #   url: "https://x.com/yourusername"
   #   icon: "x"
   - label: "LinkedIn"
-    url: "www.linkedin.com/in/changhyunoh"
+    url: "https://www.linkedin.com/in/changhyunoh"
     icon: "linkedin"
   # - label: "Dribbble"
   #   url: "https://dribbble.com/yourusername"
@@ -92,9 +98,9 @@ social_links:
   # - label: "CodePen"
   #   url: "https://codepen.io/yourusername"
   #   icon: "codepen"
-  - label: "Instagram"
-    url: "https://instagram.com/rossalk11"
-    icon: "instagram"
+  # - label: "Instagram"
+  #   url: "https://instagram.com/rossalk11"
+  #   icon: "instagram"
   # - label: "Behance"
   #   url: "https://behance.net/yourusername"
   #   icon: "behance"
@@ -118,7 +124,7 @@ kramdown:
 collections:
   projects:
     output: true
-    permalink: /work/:name/
+    permalink: /projects/:name/
 
 defaults:
   - scope:
@@ -149,3 +155,5 @@ exclude:
   - README.md
   - CONTRIBUTING.md
   - docs
+  - memo
+  - scripts

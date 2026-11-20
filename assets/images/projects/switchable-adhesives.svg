@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" font-family="Inter, Arial, sans-serif"><rect width="1600" height="900" fill="#f3f6fb"/>
+<text x="80" y="110" font-size="44" font-weight="700" fill="#111827">Switchable underwater adhesion</text>
+<rect x="0" y="160" width="1600" height="560" fill="#dbeafe"/>
+<text x="80" y="210" font-size="26" fill="#1e40af">Water</text>
+<!-- rough surface -->
+<path d="M0 640 L60 625 L120 645 L180 620 L240 640 L300 628 L360 648 L420 622 L480 642 L540 626 L600 646 L660 624 L720 640 L780 628 L840 646 L900 622 L960 642 L1020 626 L1080 646 L1140 624 L1200 640 L1260 628 L1320 646 L1380 622 L1440 642 L1500 626 L1600 640 L1600 720 L0 720 Z" fill="#78716c"/>
+<text x="80" y="700" font-size="26" fill="#fff">Rough, wet surface</text>
+<!-- attached -->
+<rect x="280" y="380" width="300" height="70" rx="10" fill="#fb923c"/>
+<path d="M330 450 Q330 630 430 630 Q530 630 530 450 Z" fill="#fdba74" stroke="#c2410c" stroke-width="4"/>
+<text x="430" y="320" font-size="34" font-weight="700" text-anchor="middle" fill="#9a3412">ON: attached</text>
+<path d="M430 420 v-40" stroke="#c2410c" stroke-width="4"/>
+<!-- released -->
+<rect x="1020" y="300" width="300" height="70" rx="10" fill="#fb923c"/>
+<path d="M1070 370 Q1070 500 1170 500 Q1270 500 1270 370 Z" fill="#fed7aa" stroke="#c2410c" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="1170" y="260" font-size="34" font-weight="700" text-anchor="middle" fill="#9a3412">OFF: released</text>
+<path d="M1170 560 v-40 M1150 540 l20 -20 l20 20" stroke="#c2410c" stroke-width="4" fill="none"/>
+<text x="800" y="460" font-size="60" text-anchor="middle" fill="#1e40af">⇄</text>
+<text x="800" y="510" font-size="26" text-anchor="middle" fill="#1e40af">switch</text>
+<text x="80" y="840" font-size="26" fill="#6b7280">Schematic — not to scale</text></svg>

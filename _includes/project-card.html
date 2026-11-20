@@ -1,0 +1,16 @@
+{% assign p = include.project %}
+<a href="{{ p.url | relative_url }}" class="p-card">
+  <div class="p-card__media">
+    <img src="{{ p.cover | relative_url }}" alt="" loading="lazy">
+  </div>
+  <div class="p-card__body">
+    <span class="p-card__category">{{ p.category }} · {{ p.year }}</span>
+    <h3 class="p-card__title">{{ p.title }}</h3>
+    <p class="p-card__desc">{{ p.summary }}</p>
+    {% if p.skills %}
+    <ul class="skill-chips skill-chips--sm" role="list">
+      {% for s in p.skills limit: 3 %}<li>{{ s }}</li>{% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+</a>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" font-family="Inter, Arial, sans-serif"><rect width="1600" height="900" fill="#f3f6fb"/>
+<text x="80" y="110" font-size="44" font-weight="700" fill="#111827">Soft inductive tactile sensor</text>
+<!-- probe -->
+<rect x="560" y="170" width="70" height="150" rx="8" fill="#9ca3af"/><path d="M560 320 L630 320 L595 370 Z" fill="#6b7280"/>
+<path d="M595 190 v-0" /><text x="660" y="250" font-size="28" fill="#374151">Robot / INSTRON probe</text>
+<!-- MRE -->
+<path d="M180 420 L480 420 Q595 470 710 420 L1020 420 L1020 520 L180 520 Z" fill="#c7d2fe" stroke="#4f46e5" stroke-width="3"/>
+<g fill="#4338ca">
+<circle cx="230" cy="470" r="7"/><circle cx="300" cy="455" r="7"/><circle cx="370" cy="490" r="7"/><circle cx="440" cy="460" r="7"/><circle cx="520" cy="495" r="7"/><circle cx="575" cy="505" r="7"/><circle cx="615" cy="503" r="7"/><circle cx="660" cy="492" r="7"/><circle cx="740" cy="465" r="7"/><circle cx="810" cy="490" r="7"/><circle cx="880" cy="458" r="7"/><circle cx="950" cy="485" r="7"/>
+</g>
+<text x="1050" y="465" font-size="28" fill="#374151">Magnetorheological</text><text x="1050" y="500" font-size="28" fill="#374151">elastomer (MRE)</text>
+<!-- PCB -->
+<rect x="180" y="530" width="840" height="60" rx="6" fill="#065f46"/>
+<g fill="none" stroke="#fbbf24" stroke-width="5">
+<ellipse cx="260" cy="560" rx="55" ry="18"/><ellipse cx="260" cy="560" rx="30" ry="9"/>
+<ellipse cx="430" cy="560" rx="55" ry="18"/><ellipse cx="430" cy="560" rx="30" ry="9"/>
+<ellipse cx="600" cy="560" rx="55" ry="18"/><ellipse cx="600" cy="560" rx="30" ry="9"/>
+<ellipse cx="770" cy="560" rx="55" ry="18"/><ellipse cx="770" cy="560" rx="30" ry="9"/>
+<ellipse cx="940" cy="560" rx="55" ry="18"/><ellipse cx="940" cy="560" rx="30" ry="9"/>
+</g>
+<text x="1050" y="570" font-size="28" fill="#374151">PCB with 5 planar coils</text>
+<!-- signals -->
+<g stroke="#0052FF" stroke-width="4" fill="none"><path d="M600 600 V680 H1060"/></g>
+<rect x="1060" y="640" width="200" height="80" rx="12" fill="#fff" stroke="#0052FF" stroke-width="3"/><text x="1160" y="672" font-size="24" text-anchor="middle" fill="#111827">5 inductance</text><text x="1160" y="702" font-size="24" text-anchor="middle" fill="#111827">signals</text>
+<path d="M1260 680 H1310" stroke="#0052FF" stroke-width="4" marker-end="url(#a)"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0052FF"/></marker></defs>
+<rect x="1320" y="640" width="200" height="80" rx="12" fill="#0052FF"/><text x="1420" y="672" font-size="24" text-anchor="middle" fill="#fff">ML model</text><text x="1420" y="702" font-size="24" text-anchor="middle" fill="#fff">→ contact (x, y)</text>
+<text x="80" y="840" font-size="26" fill="#6b7280">Schematic — not to scale</text></svg>
